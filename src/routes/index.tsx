@@ -570,9 +570,9 @@ function Footer() {
           <a href="mailto:admin@sugaroholic.com" className="block text-sm text-muted-foreground hover:text-gold mt-1">admin@sugaroholic.com</a>
         </div>
       </div>
-      <div className="border-t border-border/40 py-5 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Sugaroholic Patisserie. Handcrafted with love.
-      </div>
+      <a href="https://petaxai.com" className="border-t border-border/40 py-5 text-center text-xs text-muted-foreground">
+        © {new Date().getFullYear()} PetaxAI. Sour High through Innovation.
+      </a>
     </footer>
   );
 }
